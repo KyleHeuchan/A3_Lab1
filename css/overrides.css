@@ -129,13 +129,13 @@ li > p { margin-bottom: 5px; font-family: arial, helvetica, sans-serif; }
 
 /* you may have to write more here - these are my simple fades, etc */
 
-.fadeIn {
+.ThumbInfo {
   visibility: visible;
   opacity: 1;
  transition: opacity 2s linear;
 }
 
-.fadeOut {
+.ThumbInfo:hover {
   visibility: hidden;
   opacity:0;
   transition: visibility 0s 2s, opacity 2s linear;
